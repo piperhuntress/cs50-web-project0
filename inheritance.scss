@@ -1,0 +1,20 @@
+%caption {
+    font-size: 18px;
+    font-weight: bold;
+    text-align:center;
+}
+
+.places {
+    @extend %caption;
+    color: blue;
+}
+
+.personal {
+    @extend %caption;
+    color: orange;
+}
+
+.travel {
+    @extend %caption;
+    color: purple;
+}
